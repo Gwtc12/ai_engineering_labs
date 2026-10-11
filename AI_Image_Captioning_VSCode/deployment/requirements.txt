@@ -1,0 +1,3 @@
+# Exactly the explicit dependencies from IBM Lab 3, p. 4.
+requests
+gradio==5.23.2

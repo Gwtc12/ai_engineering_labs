@@ -10,3 +10,9 @@ env/
 
 # OS
 .DS_Store
+
+# Local-only
+.claude/
+Coding Gym Labs/
+obmnl-flask_assignment/obmnl-flask_assignment/
+AI_Image_Captioning_VSCode/lab_instructions/

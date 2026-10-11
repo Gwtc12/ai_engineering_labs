@@ -1,0 +1,10 @@
+# Follow IBM versions for the two main libraries.
+gradio==5.23.2
+transformers==4.38.2
+# Explicit local dependencies omitted or implicit in IBM CloudIDE instructions.
+torch>=2.2,<2.6
+numpy>=1.26,<2
+Pillow>=10,<12
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+huggingface-hub>=0.20,<1

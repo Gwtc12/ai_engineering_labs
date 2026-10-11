@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "1 - Gradio hello",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/hello.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "2 - BLIP caption script (after completing)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/image_cap.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "args": [
+        "images/your-photo.jpg"
+      ]
+    },
+    {
+      "name": "3 - Image captioning app (after completing)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/image_captioning_app.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "4 - Deployment demo",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/deployment/demo.py",
+      "cwd": "${workspaceFolder}/deployment",
+      "console": "integratedTerminal"
+    }
+  ]
+}

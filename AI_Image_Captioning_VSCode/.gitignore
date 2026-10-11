@@ -1,0 +1,8 @@
+# Local Python and generated outputs
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+captions.txt
+.env
+.env.*
